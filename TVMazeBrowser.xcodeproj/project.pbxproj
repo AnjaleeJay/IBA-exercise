@@ -14,6 +14,7 @@
 		15D41780210EE3E000E648CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15D4177F210EE3E000E648CC /* Assets.xcassets */; };
 		15D41783210EE3E000E648CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D41781210EE3E000E648CC /* LaunchScreen.storyboard */; };
 		15D4178E210EE3E000E648CC /* TVMazeBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D4178D210EE3E000E648CC /* TVMazeBrowserTests.swift */; };
+		9E1FC36D26FF340D00FCBEE3 /* tvShowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1FC36C26FF340D00FCBEE3 /* tvShowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		15D41789210EE3E000E648CC /* TVMazeBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVMazeBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D4178D210EE3E000E648CC /* TVMazeBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVMazeBrowserTests.swift; sourceTree = "<group>"; };
 		15D4178F210EE3E000E648CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E1FC36C26FF340D00FCBEE3 /* tvShowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvShowController.swift; sourceTree = "<group>"; };
 		A760CC6521F039D300EDFBD3 /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +92,7 @@
 				15D4177C210EE3DF00E648CC /* Main.storyboard */,
 				15B2E4A4210FE93A0017AB0D /* ShowCell.swift */,
 				15D4177A210EE3DF00E648CC /* ShowSearchViewController.swift */,
+				9E1FC36C26FF340D00FCBEE3 /* tvShowController.swift */,
 			);
 			path = TVMazeBrowser;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E1FC36D26FF340D00FCBEE3 /* tvShowController.swift in Sources */,
 				15B2E4A5210FE93A0017AB0D /* ShowCell.swift in Sources */,
 				15D4177B210EE3DF00E648CC /* ShowSearchViewController.swift in Sources */,
 				15D41779210EE3DF00E648CC /* AppDelegate.swift in Sources */,

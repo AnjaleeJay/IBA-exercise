@@ -65,15 +65,16 @@ extension ShowSearchViewController: UITableViewDataSource {
             let showSchedule = show["schedule"] as! [String: AnyObject]
             let time = showSchedule["time"] as! String
             let days = showSchedule["days"] as! [String]
-            let hour = Int(time[..<time.index(time.startIndex, offsetBy: 2)])!
+            let hour = Int(time[..<time.index(time.startIndex, offsetBy: 2)]) ?? 0
 
             var schedule = ""
+            
 
             if hour < 12 {
                 schedule = schedule + "Mornings"
             } else if hour < 18 {
                 schedule = schedule + "Afternoons"
-            } else {
+            } else  {
                 schedule = schedule + "Nights"
             }
 
@@ -83,6 +84,7 @@ extension ShowSearchViewController: UITableViewDataSource {
 
             return schedule
         }()
+        
         return cell
     }
 
